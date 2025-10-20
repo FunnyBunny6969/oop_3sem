@@ -1,0 +1,15 @@
+D:\UNIK\02\oop\oop_3sem\LAB4_Inheritance\obj\Debug\net9.0\LAB4_Inheritance.GeneratedMSBuildEditorConfig.editorconfig
+D:\UNIK\02\oop\oop_3sem\LAB4_Inheritance\obj\Debug\net9.0\LAB4_Inheritance.AssemblyInfoInputs.cache
+D:\UNIK\02\oop\oop_3sem\LAB4_Inheritance\obj\Debug\net9.0\LAB4_Inheritance.AssemblyInfo.cs
+D:\UNIK\02\oop\oop_3sem\LAB4_Inheritance\obj\Debug\net9.0\LAB4_Inheritance.csproj.CoreCompileInputs.cache
+D:\UNIK\02\oop\oop_3sem\LAB4_Inheritance\obj\Debug\net9.0\LAB4_Inheritance.sourcelink.json
+D:\UNIK\02\oop\oop_3sem\LAB4_Inheritance\bin\Debug\net9.0\LAB4_Inheritance.exe
+D:\UNIK\02\oop\oop_3sem\LAB4_Inheritance\bin\Debug\net9.0\LAB4_Inheritance.deps.json
+D:\UNIK\02\oop\oop_3sem\LAB4_Inheritance\bin\Debug\net9.0\LAB4_Inheritance.runtimeconfig.json
+D:\UNIK\02\oop\oop_3sem\LAB4_Inheritance\bin\Debug\net9.0\LAB4_Inheritance.dll
+D:\UNIK\02\oop\oop_3sem\LAB4_Inheritance\bin\Debug\net9.0\LAB4_Inheritance.pdb
+D:\UNIK\02\oop\oop_3sem\LAB4_Inheritance\obj\Debug\net9.0\LAB4_Inheritance.dll
+D:\UNIK\02\oop\oop_3sem\LAB4_Inheritance\obj\Debug\net9.0\refint\LAB4_Inheritance.dll
+D:\UNIK\02\oop\oop_3sem\LAB4_Inheritance\obj\Debug\net9.0\LAB4_Inheritance.pdb
+D:\UNIK\02\oop\oop_3sem\LAB4_Inheritance\obj\Debug\net9.0\LAB4_Inheritance.genruntimeconfig.cache
+D:\UNIK\02\oop\oop_3sem\LAB4_Inheritance\obj\Debug\net9.0\ref\LAB4_Inheritance.dll
