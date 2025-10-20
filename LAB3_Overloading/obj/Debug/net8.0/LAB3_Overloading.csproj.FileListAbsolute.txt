@@ -1,0 +1,14 @@
+/root/LAB3_Overloading/bin/Debug/net8.0/LAB3_Overloading
+/root/LAB3_Overloading/bin/Debug/net8.0/LAB3_Overloading.deps.json
+/root/LAB3_Overloading/bin/Debug/net8.0/LAB3_Overloading.runtimeconfig.json
+/root/LAB3_Overloading/bin/Debug/net8.0/LAB3_Overloading.dll
+/root/LAB3_Overloading/bin/Debug/net8.0/LAB3_Overloading.pdb
+/root/LAB3_Overloading/obj/Debug/net8.0/LAB3_Overloading.GeneratedMSBuildEditorConfig.editorconfig
+/root/LAB3_Overloading/obj/Debug/net8.0/LAB3_Overloading.AssemblyInfoInputs.cache
+/root/LAB3_Overloading/obj/Debug/net8.0/LAB3_Overloading.AssemblyInfo.cs
+/root/LAB3_Overloading/obj/Debug/net8.0/LAB3_Overloading.csproj.CoreCompileInputs.cache
+/root/LAB3_Overloading/obj/Debug/net8.0/LAB3_Overloading.dll
+/root/LAB3_Overloading/obj/Debug/net8.0/refint/LAB3_Overloading.dll
+/root/LAB3_Overloading/obj/Debug/net8.0/LAB3_Overloading.pdb
+/root/LAB3_Overloading/obj/Debug/net8.0/LAB3_Overloading.genruntimeconfig.cache
+/root/LAB3_Overloading/obj/Debug/net8.0/ref/LAB3_Overloading.dll

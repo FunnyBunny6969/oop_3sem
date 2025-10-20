@@ -1,0 +1,14 @@
+/root/LAB2_Class/bin/Debug/net8.0/LAB2_Class
+/root/LAB2_Class/bin/Debug/net8.0/LAB2_Class.deps.json
+/root/LAB2_Class/bin/Debug/net8.0/LAB2_Class.runtimeconfig.json
+/root/LAB2_Class/bin/Debug/net8.0/LAB2_Class.dll
+/root/LAB2_Class/bin/Debug/net8.0/LAB2_Class.pdb
+/root/LAB2_Class/obj/Debug/net8.0/LAB2_Class.GeneratedMSBuildEditorConfig.editorconfig
+/root/LAB2_Class/obj/Debug/net8.0/LAB2_Class.AssemblyInfoInputs.cache
+/root/LAB2_Class/obj/Debug/net8.0/LAB2_Class.AssemblyInfo.cs
+/root/LAB2_Class/obj/Debug/net8.0/LAB2_Class.csproj.CoreCompileInputs.cache
+/root/LAB2_Class/obj/Debug/net8.0/LAB2_Class.dll
+/root/LAB2_Class/obj/Debug/net8.0/refint/LAB2_Class.dll
+/root/LAB2_Class/obj/Debug/net8.0/LAB2_Class.pdb
+/root/LAB2_Class/obj/Debug/net8.0/LAB2_Class.genruntimeconfig.cache
+/root/LAB2_Class/obj/Debug/net8.0/ref/LAB2_Class.dll
