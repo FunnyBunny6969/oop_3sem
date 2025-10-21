@@ -1,5 +1,6 @@
 using System;
 using System.Linq;
+using System.Text;
 
 // Основной класс: одномерный массив
 public class MyArray
@@ -68,9 +69,59 @@ public static class StatisticOperation
     public static int Sum(MyArray arr) => arr.Values.Sum();
     public static int MaxMinusMin(MyArray arr) => arr.Values.Max() - arr.Values.Min();
     public static int Count(MyArray arr) => arr.Values.Length;
+
+    // Методы расширения для string
+    public static int WordCount(this string str)
+    {
+        if (string.IsNullOrWhiteSpace(str))
+            return 0;
+        
+        return str.Split(new char[] { ' ', '.', ',', '!', '?' }, 
+                        StringSplitOptions.RemoveEmptyEntries).Length;
+    }
+
+    public static bool IsPalindrome(this string str)
+    {
+        if (string.IsNullOrEmpty(str))
+            return false;
+            
+        string cleanStr = new string(str.Where(char.IsLetterOrDigit).ToArray()).ToLower();
+        return cleanStr.SequenceEqual(cleanStr.Reverse());
+    }
+
+    public static string RemovePunctuation(this string str)
+    {
+        if (string.IsNullOrEmpty(str))
+            return str;
+            
+        return new string(str.Where(c => !char.IsPunctuation(c)).ToArray());
+    }
+
+    // Методы расширения для MyArray
+    public static int CountEvenNumbers(this MyArray arr)
+    {
+        return arr.Values.Count(x => x % 2 == 0);
+    }
+
+    public static double AverageValue(this MyArray arr)
+    {
+        if (arr.Values.Length == 0)
+            return 0;
+        return arr.Values.Average();
+    }
+
+    public static bool ContainsDuplicates(this MyArray arr)
+    {
+        return arr.Values.Length != arr.Values.Distinct().Count();
+    }
+
+    public static MyArray ReverseArray(this MyArray arr)
+    {
+        return new MyArray(arr.Values.Reverse().ToArray());
+    }
 }
 
-// Методы расширения
+// Старый класс методов расширения (оставляем для обратной совместимости)
 public static class Extensions
 {
     public static string RemoveVowels(this string str)
@@ -107,10 +158,26 @@ class Program
         Console.WriteLine(StatisticOperation.MaxMinusMin(arr1));
         Console.WriteLine(StatisticOperation.Count(arr1));
 
-        // Методы расширения
+        // Старые методы расширения
         string text = "Hello World";
         Console.WriteLine(text.RemoveVowels());
         var arrRemoved = arr1.RemoveFirstFive();
         Console.WriteLine(string.Join(", ", arrRemoved.Values));
+
+        // Новые методы расширения для string
+        Console.WriteLine("\n--- Методы расширения для string ---");
+        string testString = "Hello, world! This is a test.";
+        Console.WriteLine($"Количество слов: {testString.WordCount()}");
+        Console.WriteLine($"Является палиндромом 'radar': {"radar".IsPalindrome()}");
+        Console.WriteLine($"Без пунктуации: {testString.RemovePunctuation()}");
+
+        // Новые методы расширения для MyArray
+        Console.WriteLine("\n--- Методы расширения для MyArray ---");
+        Console.WriteLine($"Четные числа: {arr1.CountEvenNumbers()}");
+        Console.WriteLine($"Среднее значение: {arr1.AverageValue()}");
+        Console.WriteLine($"Есть дубликаты: {arr1.ContainsDuplicates()}");
+        
+        var reversedArr = arr1.ReverseArray();
+        Console.WriteLine($"Перевернутый массив: {string.Join(", ", reversedArr.Values)}");
     }
-}﻿
+}
