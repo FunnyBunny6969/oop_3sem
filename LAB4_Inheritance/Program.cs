@@ -6,27 +6,28 @@ public interface IControl
     void Show();
     void Input();
     void Resize(double factor);
-    string GetInfo();
+    string GetInfo(); // Одноименный метод с абстрактным классом
 }
 
 // Абстрактный класс геометрической фигуры
-public abstract class GeometricShape
+public abstract class GeometricFigure
 {
-    public string Name { get; set; }
+    public string Name { get; protected set; }
+    public abstract double Area { get; }
     
-    public abstract double GetArea();
-    public abstract string GetInfo();
+    public abstract void Show();
+    public abstract string GetInfo(); // Одноименный метод с интерфейсом
     
     public override string ToString()
     {
-        return $"{GetType().Name}: {Name}, Площадь: {GetArea():F2}";
+        return $"{GetType().Name}: {Name}, Площадь: {Area:F2}";
     }
 }
 
 // Класс Круг
-public class Circle : GeometricShape, IControl
+public class Circle : GeometricFigure, IControl
 {
-    public double Radius { get; set; }
+    public double Radius { get; private set; }
     
     public Circle(string name, double radius)
     {
@@ -34,32 +35,43 @@ public class Circle : GeometricShape, IControl
         Radius = radius;
     }
     
-    public override double GetArea()
-    {
-        return Math.PI * Radius * Radius;
-    }
+    public override double Area => Math.PI * Radius * Radius;
     
-    public override string GetInfo()
+    public override void Show()
     {
-        return $"Круг '{Name}' с радиусом {Radius}";
-    }
-    
-    public void Show()
-    {
-        Console.WriteLine($"Отображаем круг: {Name}");
+        Console.WriteLine($"Круг: {Name}, Радиус: {Radius}, Площадь: {Area:F2}");
     }
     
     public void Input()
     {
-        Console.WriteLine($"Ввод данных для круга: {Name}");
+        Console.Write($"Введите новый радиус для круга '{Name}': ");
+        if (double.TryParse(Console.ReadLine(), out double newRadius) && newRadius > 0)
+        {
+            Radius = newRadius;
+        }
     }
     
     public void Resize(double factor)
     {
-        Radius *= factor;
-        Console.WriteLine($"Круг масштабирован в {factor} раз. Новый радиус: {Radius}");
+        if (factor > 0)
+        {
+            Radius *= factor;
+            Console.WriteLine($"Круг '{Name}' масштабирован в {factor} раз");
+        }
     }
     
+    public override string GetInfo()
+    {
+        return $"Круг '{Name}' - Радиус: {Radius}, Площадь: {Area:F2}";
+    }
+
+    // ЯВНАЯ реализация для интерфейса IControl
+    string IControl.GetInfo()
+    {
+        return $"[ЭЛЕМЕТ УПРАВЛЕНИЯ]: Круг '{Name}', Размер: {Radius}";
+    }
+    
+    // Переопределение методов Object
     public override bool Equals(object obj)
     {
         return obj is Circle circle && Name == circle.Name && Radius == circle.Radius;
@@ -72,10 +84,10 @@ public class Circle : GeometricShape, IControl
 }
 
 // Класс Прямоугольник
-public class Rectangle : GeometricShape, IControl
+public class Rectangle : GeometricFigure, IControl
 {
-    public double Width { get; set; }
-    public double Height { get; set; }
+    public double Width { get; private set; }
+    public double Height { get; private set; }
     
     public Rectangle(string name, double width, double height)
     {
@@ -84,86 +96,91 @@ public class Rectangle : GeometricShape, IControl
         Height = height;
     }
     
-    public override double GetArea()
-    {
-        return Width * Height;
-    }
+    public override double Area => Width * Height;
     
-    public override string GetInfo()
+    public override void Show()
     {
-        return $"Прямоугольник '{Name}' размером {Width}x{Height}";
-    }
-    
-    public void Show()
-    {
-        Console.WriteLine($"Отображаем прямоугольник: {Name}");
+        Console.WriteLine($"Прямоугольник: {Name}, Ширина: {Width}, Высота: {Height}, Площадь: {Area:F2}");
     }
     
     public void Input()
     {
-        Console.WriteLine($"Ввод данных для прямоугольника: {Name}");
+        Console.Write($"Введите новую ширину для прямоугольника '{Name}': ");
+        if (double.TryParse(Console.ReadLine(), out double newWidth) && newWidth > 0)
+        {
+            Width = newWidth;
+        }
+        
+        Console.Write($"Введите новую высоту для прямоугольника '{Name}': ");
+        if (double.TryParse(Console.ReadLine(), out double newHeight) && newHeight > 0)
+        {
+            Height = newHeight;
+        }
     }
     
     public void Resize(double factor)
     {
-        Width *= factor;
-        Height *= factor;
-        Console.WriteLine($"Прямоугольник масштабирован в {factor} раз. Новый размер: {Width}x{Height}");
+        if (factor > 0)
+        {
+            Width *= factor;
+            Height *= factor;
+            Console.WriteLine($"Прямоугольник '{Name}' масштабирован в {factor} раз");
+        }
     }
     
-    public override bool Equals(object obj)
+    public override string GetInfo()
     {
-        return obj is Rectangle rect && Name == rect.Name && Width == rect.Width && Height == rect.Height;
-    }
-    
-    public override int GetHashCode()
-    {
-        return HashCode.Combine(Name, Width, Height);
+        return $"Прямоугольник '{Name}' - Ширина: {Width}, Высота: {Height}, Площадь: {Area:F2}";
     }
 }
 
 // Абстрактный класс элемента управления
 public abstract class ControlElement : IControl
 {
-    public string Name { get; set; }
-    public bool IsEnabled { get; set; } = true;
+    public string Name { get; protected set; }
+    public bool IsEnabled { get; protected set; } = true;
     
-    public abstract void Draw();
-    
-    public virtual void Show()
-    {
-        Console.WriteLine($"Отображаем элемент управления: {Name}");
-    }
-    
-    public virtual void Input()
-    {
-        Console.WriteLine($"Ввод данных для элемента: {Name}");
-    }
+    public abstract void Show();
+    public abstract void Input();
     
     public virtual void Resize(double factor)
     {
-        Console.WriteLine($"Изменение размера элемента {Name} в {factor} раз");
+        Console.WriteLine($"Изменение размера элемента '{Name}' в {factor} раз");
     }
     
-    public virtual string GetInfo()
-    {
-        return $"{GetType().Name} '{Name}' (Активен: {IsEnabled})";
-    }
+    public abstract string GetInfo();
     
     public override string ToString()
     {
-        return GetInfo();
+        return $"{GetType().Name}: {Name}, Активен: {IsEnabled}";
     }
 }
 
-// Класс Checkbox
-public class Checkbox : ControlElement
+// Sealed класс Checkbox
+public sealed class Checkbox : ControlElement
 {
-    public bool IsChecked { get; set; }
+    public bool IsChecked { get; private set; }
     
-    public override void Draw()
+    public Checkbox(string name, bool isChecked = false)
     {
-        Console.WriteLine($"Рисуем флажок '{Name}' - Отмечен: {IsChecked}");
+        Name = name;
+        IsChecked = isChecked;
+    }
+    
+    public override void Show()
+    {
+        Console.WriteLine($"Флажок: {Name}, Отмечен: {IsChecked}, Активен: {IsEnabled}");
+    }
+    
+    public override void Input()
+    {
+        Console.Write($"Переключить флажок '{Name}'? (y/n): ");
+        string input = Console.ReadLine();
+        if (input?.ToLower() == "y" || input?.ToLower() == "n")
+        {
+            IsChecked = !IsChecked;
+            Console.WriteLine($"Флажок '{Name}' теперь {(IsChecked ? "отмечен" : "не отмечен")}");
+        }
     }
     
     public override string GetInfo()
@@ -171,106 +188,109 @@ public class Checkbox : ControlElement
         return $"Флажок '{Name}' - Отмечен: {IsChecked}, Активен: {IsEnabled}";
     }
     
+    // Переопределение всех методов Object
     public override bool Equals(object obj)
     {
-        return obj is Checkbox cb && Name == cb.Name && IsEnabled == cb.IsEnabled && IsChecked == cb.IsChecked;
+        return obj is Checkbox checkbox && Name == checkbox.Name && IsChecked == checkbox.IsChecked && IsEnabled == checkbox.IsEnabled;
     }
     
     public override int GetHashCode()
     {
-        return HashCode.Combine(Name, IsEnabled, IsChecked);
+        return HashCode.Combine(Name, IsChecked, IsEnabled);
     }
 }
 
 // Класс Radiobutton
 public class Radiobutton : ControlElement
 {
-    public bool IsSelected { get; set; }
-    public string GroupName { get; set; } = "default";
+    public string Group { get; private set; }
+    public bool IsSelected { get; private set; }
     
-    public override void Draw()
+    public Radiobutton(string name, string group, bool isSelected = false)
     {
-        Console.WriteLine($"Рисуем переключатель '{Name}' - Выбран: {IsSelected}, Группа: {GroupName}");
+        Name = name;
+        Group = group;
+        IsSelected = isSelected;
     }
     
-    public override string GetInfo()
+    public override void Show()
     {
-        return $"Переключатель '{Name}' - Выбран: {IsSelected}, Группа: {GroupName}, Активен: {IsEnabled}";
-    }
-    
-    public override bool Equals(object obj)
-    {
-        return obj is Radiobutton rb && Name == rb.Name && IsEnabled == rb.IsEnabled && 
-               IsSelected == rb.IsSelected && GroupName == rb.GroupName;
-    }
-    
-    public override int GetHashCode()
-    {
-        return HashCode.Combine(Name, IsEnabled, IsSelected, GroupName);
-    }
-}
-
-// Sealed класс Button
-public sealed class Button : ControlElement
-{
-    public string Text { get; set; } = "Кнопка";
-    
-    public override void Draw()
-    {
-        Console.WriteLine($"Рисуем кнопку '{Name}' - Текст: '{Text}'");
+        Console.WriteLine($"Радиокнопка: {Name}, Группа: {Group}, Выбрана: {IsSelected}, Активна: {IsEnabled}");
     }
     
     public override void Input()
     {
-        Console.WriteLine($"Кнопка '{Name}' нажата!");
+        Console.Write($"Выбрать радиокнопку '{Name}'? (y/н): ");
+        string input = Console.ReadLine();
+        if (input?.ToLower() == "y" || input?.ToLower() == "д")
+        {
+            IsSelected = true;
+            Console.WriteLine($"Радиокнопка '{Name}' теперь выбрана");
+        }
+    }
+    
+    public override string GetInfo()
+    {
+        return $"Радиокнопка '{Name}' - Группа: {Group}, Выбрана: {IsSelected}, Активна: {IsEnabled}";
+    }
+}
+
+// Класс Button
+public class Button : ControlElement
+{
+    public string Text { get; private set; }
+    
+    public Button(string name, string text = "")
+    {
+        Name = name;
+        Text = text;
+    }
+    
+    public override void Show()
+    {
+        Console.WriteLine($"Кнопка: {Name}, Текст: '{Text}', Активна: {IsEnabled}");
+    }
+    
+    public override void Input()
+    {
+        Console.Write($"Введите новый текст для кнопки '{Name}': ");
+        string newText = Console.ReadLine();
+        if (!string.IsNullOrEmpty(newText))
+        {
+            Text = newText;
+            Console.WriteLine($"Текст кнопки '{Name}' обновлен");
+        }
+    }
+    
+    public override void Resize(double factor)
+    {
+        base.Resize(factor);
+        Console.WriteLine($"Визуальный размер кнопки '{Name}' изменен");
     }
     
     public override string GetInfo()
     {
         return $"Кнопка '{Name}' - Текст: '{Text}', Активна: {IsEnabled}";
     }
-    
-    public override bool Equals(object obj)
-    {
-        return obj is Button btn && Name == btn.Name && IsEnabled == btn.IsEnabled && Text == btn.Text;
-    }
-    
-    public override int GetHashCode()
-    {
-        return HashCode.Combine(Name, IsEnabled, Text);
-    }
 }
 
 // Класс Printer с полиморфным методом
 public class Printer
 {
-    public void IAmPrinting(IControl obj)
+    public void IAmPrinting(IControl control)
     {
-        if (obj is null)
+        if (control is GeometricFigure figure)
         {
-            Console.WriteLine("Передан null объект");
-            return;
+            Console.WriteLine($"Печать геометрической фигуры: {figure.ToString()}");
         }
-        
-        var shape = obj as GeometricShape;
-        if (shape != null)
+        else if (control is ControlElement element)
         {
-            Console.WriteLine($"Печать геометрической фигуры: {shape}");
+            Console.WriteLine($"Печать элемента управления: {element.ToString()}");
         }
         else
         {
-            if (obj is ControlElement control)
-            {
-                Console.WriteLine($"Печать элемента управления: {control}");
-            }
-            else
-            {
-                Console.WriteLine($"Печать неизвестного IControl: {obj}");
-            }
+            Console.WriteLine($"Печать неизвестного элемента: {control.ToString()}");
         }
-        
-        Console.WriteLine($"ToString(): {obj.ToString()}");
-        Console.WriteLine("---");
     }
 }
 
@@ -279,21 +299,23 @@ class Program
 {
     static void Main()
     {
+        // Создание объектов различных классов
         Circle circle = new Circle("Маленький круг", 5.0);
-        Rectangle rectangle = new Rectangle("Основной прямоугольник", 10.0, 5.0);
-        Checkbox checkbox = new Checkbox { Name = "Согласие", IsChecked = true };
-        Radiobutton radiobutton = new Radiobutton { Name = "Вариант А", IsSelected = true, GroupName = "опции" };
-        Button button = new Button { Name = "Отправить", Text = "Нажми меня!" };
+        Rectangle rectangle = new Rectangle("Основной прямоугольник", 10.0, 8.0);
+        Checkbox checkbox = new Checkbox("Согласен с условиями", true);
+        Radiobutton radiobutton = new Radiobutton("Вариант А", "Группа1", false);
+        Button button = new Button("Отправить", "Нажми меня!");
         
-        GeometricShape[] shapes = { circle, rectangle };
+        // Работа с объектами через ссылки на абстрактные классы и интерфейсы
+        GeometricFigure[] figures = { circle, rectangle };
         IControl[] controls = { circle, rectangle, checkbox, radiobutton, button };
         
         Console.WriteLine("=== Работа с геометрическими фигурами ===");
-        foreach (var shape in shapes)
+        foreach (var figure in figures)
         {
-            Console.WriteLine(shape.ToString());
-            Console.WriteLine($"Площадь: {shape.GetArea():F2}");
-            Console.WriteLine($"Информация: {shape.GetInfo()}");
+            figure.Show();
+            Console.WriteLine($"Площадь: {figure.Area:F2}");
+            Console.WriteLine($"GetInfo: {figure.GetInfo()}");
             Console.WriteLine();
         }
         
@@ -301,54 +323,76 @@ class Program
         foreach (var control in controls)
         {
             control.Show();
-            control.Input();
-            control.Resize(1.5);
-            Console.WriteLine($"Информация: {control.GetInfo()}");
+            
+            // Использование операторов is и as
+            if (control is GeometricFigure geomFigure)
+            {
+                Console.WriteLine($"Это геометрическая фигура с площадью: {geomFigure.Area:F2}");
+            }
+            
+            ControlElement controlElement = control as ControlElement;
+            if (controlElement != null)
+            {
+                Console.WriteLine($"Это элемент управления: {controlElement.Name}");
+            }
+            
             Console.WriteLine();
         }
         
-        Console.WriteLine("=== Использование класса Printer ===");
+        // Демонстрация методов Input и Resize
+        Console.WriteLine("=== Тестирование Input и Resize ===");
+        circle.Input();
+        circle.Resize(1.5);
+        checkbox.Input();
+        button.Input();
+        
+        Console.WriteLine("\n=== После изменений ===");
+        circle.Show();
+        checkbox.Show();
+        button.Show();
+        
+        // Использование класса Printer
+        Console.WriteLine("\n=== Демонстрация Printer ===");
         Printer printer = new Printer();
         
-        object[] objects = { circle, rectangle, checkbox, radiobutton, button, "Простая строка", 42 };
+        // Создание массива с разнотипными объектами
+        object[] objects = { circle, rectangle, checkbox, radiobutton, button };
         
         foreach (var obj in objects)
         {
-            var control = obj as IControl;
-            if (control != null)
+            if (obj is IControl control)
             {
                 printer.IAmPrinting(control);
             }
-            else
-            {
-                Console.WriteLine($"Объект {obj} не является IControl");
-                Console.WriteLine("---");
-            }
         }
         
-        Console.WriteLine("=== Идентификация типов с помощью оператора 'is' ===");
-        foreach (var control in controls)
+        // Демонстрация переопределенных методов ToString()
+        Console.WriteLine("\n=== Демонстрация ToString() ===");
+        foreach (var obj in objects)
         {
-            if (control is Circle c)
-            {
-                Console.WriteLine($"Это круг с радиусом {c.Radius}");
-            }
-            else if (control is Rectangle r)
-            {
-                Console.WriteLine($"Это прямоугольник {r.Width}x{r.Height}");
-            }
-            else if (control is Checkbox cb)
-            {
-                Console.WriteLine($"Это флажок (отмечен: {cb.IsChecked})");
-            }
-            else if (control is Radiobutton rb)
-            {
-                Console.WriteLine($"Это переключатель в группе '{rb.GroupName}'");
-            }
-            else if (control is Button btn)
-            {
-                Console.WriteLine($"Это кнопка с текстом '{btn.Text}'");
-            }
+            Console.WriteLine(obj.ToString());
         }
+        
+        // Демонстрация работы с одноименными методами
+        Console.WriteLine("\n=== Демонстрация одноименных методов ===");
+        Console.WriteLine($"GetInfo круга: {circle.GetInfo()}");
+        Console.WriteLine($"GetInfo флажка: {checkbox.GetInfo()}");
+        
+        // Демонстрация sealed класса
+        Console.WriteLine("\n=== Sealed класс Checkbox ===");
+        Checkbox sealedCheckbox = new Checkbox("Тестовый флажок");
+        Console.WriteLine(sealedCheckbox.ToString());
+
+        // Демонстрация раличий с явной реализацией
+        Console.WriteLine("\n=== Использование оператора as ===");
+        var circleAsControl = circle as IControl;
+        if (circleAsControl != null)
+        {
+            Console.WriteLine(circleAsControl.GetInfo());
+            circleAsControl.Show();
+        }
+        
+        Console.WriteLine("\nНажмите любую клавишу для выхода...");
+        Console.ReadKey();
     }
 }
