@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LAB4_Inheritance")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5f481db7c448ad03cdf2220839a5c45a1b55f436")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b8e84a2c2504849c5a259a9f059c6b095b137957")]
 [assembly: System.Reflection.AssemblyProductAttribute("LAB4_Inheritance")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LAB4_Inheritance")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
