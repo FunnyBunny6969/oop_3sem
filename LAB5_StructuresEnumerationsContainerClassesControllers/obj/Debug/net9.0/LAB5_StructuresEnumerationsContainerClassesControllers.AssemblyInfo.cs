@@ -10,12 +10,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("LAB4_Inheritance")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("LAB5_StructuresEnumerationsContainerClassesControllers")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b1b64d72ae6b581aa044e7b3e48bcbbaae5d5f01")]
-[assembly: System.Reflection.AssemblyProductAttribute("LAB4_Inheritance")]
-[assembly: System.Reflection.AssemblyTitleAttribute("LAB4_Inheritance")]
+[assembly: System.Reflection.AssemblyProductAttribute("LAB5_StructuresEnumerationsContainerClassesControllers")]
+[assembly: System.Reflection.AssemblyTitleAttribute("LAB5_StructuresEnumerationsContainerClassesControllers")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Создано классом WriteCodeFragment MSBuild.
