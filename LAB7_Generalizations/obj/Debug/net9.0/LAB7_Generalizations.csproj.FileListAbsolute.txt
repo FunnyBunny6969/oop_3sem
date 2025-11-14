@@ -1,0 +1,15 @@
+D:\UNIK\02\oop\oop_3sem\LAB7_Generalizations\bin\Debug\net9.0\LAB7_Generalizations.exe
+D:\UNIK\02\oop\oop_3sem\LAB7_Generalizations\bin\Debug\net9.0\LAB7_Generalizations.deps.json
+D:\UNIK\02\oop\oop_3sem\LAB7_Generalizations\bin\Debug\net9.0\LAB7_Generalizations.runtimeconfig.json
+D:\UNIK\02\oop\oop_3sem\LAB7_Generalizations\bin\Debug\net9.0\LAB7_Generalizations.dll
+D:\UNIK\02\oop\oop_3sem\LAB7_Generalizations\bin\Debug\net9.0\LAB7_Generalizations.pdb
+D:\UNIK\02\oop\oop_3sem\LAB7_Generalizations\obj\Debug\net9.0\LAB7_Generalizations.GeneratedMSBuildEditorConfig.editorconfig
+D:\UNIK\02\oop\oop_3sem\LAB7_Generalizations\obj\Debug\net9.0\LAB7_Generalizations.AssemblyInfoInputs.cache
+D:\UNIK\02\oop\oop_3sem\LAB7_Generalizations\obj\Debug\net9.0\LAB7_Generalizations.AssemblyInfo.cs
+D:\UNIK\02\oop\oop_3sem\LAB7_Generalizations\obj\Debug\net9.0\LAB7_Generalizations.csproj.CoreCompileInputs.cache
+D:\UNIK\02\oop\oop_3sem\LAB7_Generalizations\obj\Debug\net9.0\LAB7_Generalizations.sourcelink.json
+D:\UNIK\02\oop\oop_3sem\LAB7_Generalizations\obj\Debug\net9.0\LAB7_Generalizations.dll
+D:\UNIK\02\oop\oop_3sem\LAB7_Generalizations\obj\Debug\net9.0\refint\LAB7_Generalizations.dll
+D:\UNIK\02\oop\oop_3sem\LAB7_Generalizations\obj\Debug\net9.0\LAB7_Generalizations.pdb
+D:\UNIK\02\oop\oop_3sem\LAB7_Generalizations\obj\Debug\net9.0\LAB7_Generalizations.genruntimeconfig.cache
+D:\UNIK\02\oop\oop_3sem\LAB7_Generalizations\obj\Debug\net9.0\ref\LAB7_Generalizations.dll

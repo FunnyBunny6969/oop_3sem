@@ -1,0 +1,15 @@
+D:\UNIK\02\oop\oop_3sem\LAB6_Exceptions\bin\Debug\net9.0\LAB6_Exceptions.exe
+D:\UNIK\02\oop\oop_3sem\LAB6_Exceptions\bin\Debug\net9.0\LAB6_Exceptions.deps.json
+D:\UNIK\02\oop\oop_3sem\LAB6_Exceptions\bin\Debug\net9.0\LAB6_Exceptions.runtimeconfig.json
+D:\UNIK\02\oop\oop_3sem\LAB6_Exceptions\bin\Debug\net9.0\LAB6_Exceptions.dll
+D:\UNIK\02\oop\oop_3sem\LAB6_Exceptions\bin\Debug\net9.0\LAB6_Exceptions.pdb
+D:\UNIK\02\oop\oop_3sem\LAB6_Exceptions\obj\Debug\net9.0\LAB6_Exceptions.GeneratedMSBuildEditorConfig.editorconfig
+D:\UNIK\02\oop\oop_3sem\LAB6_Exceptions\obj\Debug\net9.0\LAB6_Exceptions.AssemblyInfoInputs.cache
+D:\UNIK\02\oop\oop_3sem\LAB6_Exceptions\obj\Debug\net9.0\LAB6_Exceptions.AssemblyInfo.cs
+D:\UNIK\02\oop\oop_3sem\LAB6_Exceptions\obj\Debug\net9.0\LAB6_Exceptions.csproj.CoreCompileInputs.cache
+D:\UNIK\02\oop\oop_3sem\LAB6_Exceptions\obj\Debug\net9.0\LAB6_Exceptions.sourcelink.json
+D:\UNIK\02\oop\oop_3sem\LAB6_Exceptions\obj\Debug\net9.0\LAB6_Exceptions.dll
+D:\UNIK\02\oop\oop_3sem\LAB6_Exceptions\obj\Debug\net9.0\refint\LAB6_Exceptions.dll
+D:\UNIK\02\oop\oop_3sem\LAB6_Exceptions\obj\Debug\net9.0\LAB6_Exceptions.pdb
+D:\UNIK\02\oop\oop_3sem\LAB6_Exceptions\obj\Debug\net9.0\LAB6_Exceptions.genruntimeconfig.cache
+D:\UNIK\02\oop\oop_3sem\LAB6_Exceptions\obj\Debug\net9.0\ref\LAB6_Exceptions.dll

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LAB3_Overloading")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b8e84a2c2504849c5a259a9f059c6b095b137957")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c682bbe667c3ae25150cc2d6670ae02355acfe8d")]
 [assembly: System.Reflection.AssemblyProductAttribute("LAB3_Overloading")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LAB3_Overloading")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
