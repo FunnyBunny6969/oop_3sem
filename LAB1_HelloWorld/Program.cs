@@ -70,7 +70,7 @@ namespace BasicsCLR
             // Класс Convert
             string numberString = "123";
             int convertedInt = Convert.ToInt32(numberString);
-            double convertedDouble = Convert.ToDouble("45.67");
+            double convertedDouble = Convert.ToDouble("45,67");
             bool convertedBool = Convert.ToBoolean("true");
 
             // 1c. Упаковка и распаковка

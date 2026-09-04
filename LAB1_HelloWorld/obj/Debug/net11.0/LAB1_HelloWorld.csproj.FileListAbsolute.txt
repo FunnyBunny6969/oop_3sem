@@ -1,0 +1,17 @@
+X:\univer\courses\02\oop_3sem\LAB1_HelloWorld\obj\Debug\net11.0\LAB1_HelloWorld.GeneratedMSBuildEditorConfig.editorconfig
+X:\univer\courses\02\oop_3sem\LAB1_HelloWorld\obj\Debug\net11.0\LAB1_HelloWorld.AssemblyInfoInputs.cache
+X:\univer\courses\02\oop_3sem\LAB1_HelloWorld\obj\Debug\net11.0\LAB1_HelloWorld.AssemblyInfo.cs
+X:\univer\courses\02\oop_3sem\LAB1_HelloWorld\obj\Debug\net11.0\LAB1_HelloWorld.csproj.CoreCompileInputs.cache
+X:\univer\courses\02\oop_3sem\LAB1_HelloWorld\obj\Debug\net11.0\LAB1_HelloWorld.sourcelink.json
+X:\univer\courses\02\oop_3sem\LAB1_HelloWorld\bin\Debug\net11.0\LAB1_HelloWorld.exe
+X:\univer\courses\02\oop_3sem\LAB1_HelloWorld\bin\Debug\net11.0\LAB1_HelloWorld.deps.json
+X:\univer\courses\02\oop_3sem\LAB1_HelloWorld\bin\Debug\net11.0\LAB1_HelloWorld.runtimeconfig.json
+X:\univer\courses\02\oop_3sem\LAB1_HelloWorld\bin\Debug\net11.0\LAB1_HelloWorld.runtimeconfig.dev.json
+X:\univer\courses\02\oop_3sem\LAB1_HelloWorld\bin\Debug\net11.0\LAB1_HelloWorld.dll
+X:\univer\courses\02\oop_3sem\LAB1_HelloWorld\bin\Debug\net11.0\LAB1_HelloWorld.pdb
+X:\univer\courses\02\oop_3sem\LAB1_HelloWorld\obj\Debug\net11.0\LAB1_HelloWorld.dll
+X:\univer\courses\02\oop_3sem\LAB1_HelloWorld\obj\Debug\net11.0\refint\LAB1_HelloWorld.dll
+X:\univer\courses\02\oop_3sem\LAB1_HelloWorld\obj\Debug\net11.0\LAB1_HelloWorld.pdb
+X:\univer\courses\02\oop_3sem\LAB1_HelloWorld\obj\Debug\net11.0\LAB1_HelloWorld.genruntimeconfig.cache
+X:\univer\courses\02\oop_3sem\LAB1_HelloWorld\obj\Debug\net11.0\ref\LAB1_HelloWorld.dll
+X:\univer\courses\02\oop_3sem\LAB1_HelloWorld\obj\Debug\net11.0\LAB1_Hel.B5058B4F.Up2Date
