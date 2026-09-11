@@ -1,0 +1,17 @@
+X:\univer\courses\02\oop_3sem\SDO\lab01\bin\Debug\net11.0\lab01.exe
+X:\univer\courses\02\oop_3sem\SDO\lab01\bin\Debug\net11.0\lab01.deps.json
+X:\univer\courses\02\oop_3sem\SDO\lab01\bin\Debug\net11.0\lab01.runtimeconfig.json
+X:\univer\courses\02\oop_3sem\SDO\lab01\bin\Debug\net11.0\lab01.runtimeconfig.dev.json
+X:\univer\courses\02\oop_3sem\SDO\lab01\bin\Debug\net11.0\lab01.dll
+X:\univer\courses\02\oop_3sem\SDO\lab01\bin\Debug\net11.0\lab01.pdb
+X:\univer\courses\02\oop_3sem\SDO\lab01\obj\Debug\net11.0\lab01.GeneratedMSBuildEditorConfig.editorconfig
+X:\univer\courses\02\oop_3sem\SDO\lab01\obj\Debug\net11.0\lab01.AssemblyInfoInputs.cache
+X:\univer\courses\02\oop_3sem\SDO\lab01\obj\Debug\net11.0\lab01.AssemblyInfo.cs
+X:\univer\courses\02\oop_3sem\SDO\lab01\obj\Debug\net11.0\lab01.csproj.CoreCompileInputs.cache
+X:\univer\courses\02\oop_3sem\SDO\lab01\obj\Debug\net11.0\lab01.sourcelink.json
+X:\univer\courses\02\oop_3sem\SDO\lab01\obj\Debug\net11.0\lab01.dll
+X:\univer\courses\02\oop_3sem\SDO\lab01\obj\Debug\net11.0\refint\lab01.dll
+X:\univer\courses\02\oop_3sem\SDO\lab01\obj\Debug\net11.0\lab01.pdb
+X:\univer\courses\02\oop_3sem\SDO\lab01\obj\Debug\net11.0\lab01.genruntimeconfig.cache
+X:\univer\courses\02\oop_3sem\SDO\lab01\obj\Debug\net11.0\ref\lab01.dll
+X:\univer\courses\02\oop_3sem\SDO\lab01\obj\Debug\net11.0\lab01.csproj.Up2Date
