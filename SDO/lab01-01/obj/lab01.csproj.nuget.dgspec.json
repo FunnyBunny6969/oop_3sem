@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "X:\\univer\\courses\\02\\oop_3sem\\SDO\\lab01\\lab01.csproj": {}
+    "X:\\univer\\courses\\02\\oop_3sem\\SDO\\lab01-01\\lab01.csproj": {}
   },
   "projects": {
-    "X:\\univer\\courses\\02\\oop_3sem\\SDO\\lab01\\lab01.csproj": {
+    "X:\\univer\\courses\\02\\oop_3sem\\SDO\\lab01-01\\lab01.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "X:\\univer\\courses\\02\\oop_3sem\\SDO\\lab01\\lab01.csproj",
+        "projectUniqueName": "X:\\univer\\courses\\02\\oop_3sem\\SDO\\lab01-01\\lab01.csproj",
         "projectName": "lab01",
-        "projectPath": "X:\\univer\\courses\\02\\oop_3sem\\SDO\\lab01\\lab01.csproj",
+        "projectPath": "X:\\univer\\courses\\02\\oop_3sem\\SDO\\lab01-01\\lab01.csproj",
         "packagesPath": "C:\\Users\\Alex\\.nuget\\packages\\",
-        "outputPath": "X:\\univer\\courses\\02\\oop_3sem\\SDO\\lab01\\obj\\",
+        "outputPath": "X:\\univer\\courses\\02\\oop_3sem\\SDO\\lab01-01\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Alex\\AppData\\Roaming\\NuGet\\NuGet.Config"
