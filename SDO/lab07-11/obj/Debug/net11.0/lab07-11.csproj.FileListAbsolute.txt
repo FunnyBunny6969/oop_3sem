@@ -1,0 +1,17 @@
+X:\univer\courses\02\oop_3sem\SDO\lab07-11\obj\Debug\net11.0\lab07-11.GeneratedMSBuildEditorConfig.editorconfig
+X:\univer\courses\02\oop_3sem\SDO\lab07-11\obj\Debug\net11.0\lab07-11.AssemblyInfoInputs.cache
+X:\univer\courses\02\oop_3sem\SDO\lab07-11\obj\Debug\net11.0\lab07-11.AssemblyInfo.cs
+X:\univer\courses\02\oop_3sem\SDO\lab07-11\obj\Debug\net11.0\lab07-11.csproj.CoreCompileInputs.cache
+X:\univer\courses\02\oop_3sem\SDO\lab07-11\obj\Debug\net11.0\lab07-11.sourcelink.json
+X:\univer\courses\02\oop_3sem\SDO\lab07-11\bin\Debug\net11.0\lab07-11.exe
+X:\univer\courses\02\oop_3sem\SDO\lab07-11\bin\Debug\net11.0\lab07-11.deps.json
+X:\univer\courses\02\oop_3sem\SDO\lab07-11\bin\Debug\net11.0\lab07-11.runtimeconfig.json
+X:\univer\courses\02\oop_3sem\SDO\lab07-11\bin\Debug\net11.0\lab07-11.runtimeconfig.dev.json
+X:\univer\courses\02\oop_3sem\SDO\lab07-11\bin\Debug\net11.0\lab07-11.dll
+X:\univer\courses\02\oop_3sem\SDO\lab07-11\bin\Debug\net11.0\lab07-11.pdb
+X:\univer\courses\02\oop_3sem\SDO\lab07-11\obj\Debug\net11.0\lab07-11.dll
+X:\univer\courses\02\oop_3sem\SDO\lab07-11\obj\Debug\net11.0\refint\lab07-11.dll
+X:\univer\courses\02\oop_3sem\SDO\lab07-11\obj\Debug\net11.0\lab07-11.pdb
+X:\univer\courses\02\oop_3sem\SDO\lab07-11\obj\Debug\net11.0\lab07-11.genruntimeconfig.cache
+X:\univer\courses\02\oop_3sem\SDO\lab07-11\obj\Debug\net11.0\ref\lab07-11.dll
+X:\univer\courses\02\oop_3sem\SDO\lab07-11\obj\Debug\net11.0\lab07-11.csproj.Up2Date
