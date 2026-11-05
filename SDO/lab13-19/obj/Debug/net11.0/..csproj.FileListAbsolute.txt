@@ -1,0 +1,17 @@
+X:\univer\courses\02\oop_3sem\SDO\lab13-19\bin\Debug\net11.0\..exe
+X:\univer\courses\02\oop_3sem\SDO\lab13-19\bin\Debug\net11.0\..deps.json
+X:\univer\courses\02\oop_3sem\SDO\lab13-19\bin\Debug\net11.0\..runtimeconfig.json
+X:\univer\courses\02\oop_3sem\SDO\lab13-19\bin\Debug\net11.0\..runtimeconfig.dev.json
+X:\univer\courses\02\oop_3sem\SDO\lab13-19\bin\Debug\net11.0\..dll
+X:\univer\courses\02\oop_3sem\SDO\lab13-19\bin\Debug\net11.0\..pdb
+X:\univer\courses\02\oop_3sem\SDO\lab13-19\obj\Debug\net11.0\..GeneratedMSBuildEditorConfig.editorconfig
+X:\univer\courses\02\oop_3sem\SDO\lab13-19\obj\Debug\net11.0\..AssemblyInfoInputs.cache
+X:\univer\courses\02\oop_3sem\SDO\lab13-19\obj\Debug\net11.0\..AssemblyInfo.cs
+X:\univer\courses\02\oop_3sem\SDO\lab13-19\obj\Debug\net11.0\..csproj.CoreCompileInputs.cache
+X:\univer\courses\02\oop_3sem\SDO\lab13-19\obj\Debug\net11.0\..sourcelink.json
+X:\univer\courses\02\oop_3sem\SDO\lab13-19\obj\Debug\net11.0\..dll
+X:\univer\courses\02\oop_3sem\SDO\lab13-19\obj\Debug\net11.0\refint\..dll
+X:\univer\courses\02\oop_3sem\SDO\lab13-19\obj\Debug\net11.0\..pdb
+X:\univer\courses\02\oop_3sem\SDO\lab13-19\obj\Debug\net11.0\..genruntimeconfig.cache
+X:\univer\courses\02\oop_3sem\SDO\lab13-19\obj\Debug\net11.0\ref\..dll
+X:\univer\courses\02\oop_3sem\SDO\lab13-19\obj\Debug\net11.0\..csproj.Up2Date
