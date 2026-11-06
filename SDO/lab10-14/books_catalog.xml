@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Catalog>
+  <Book Id="1">
+    <Title>Теория всего</Title>
+    <Author>Стивен Хокинг</Author>
+    <Genre>Наука</Genre>
+    <Year>2002</Year>
+    <Price>450.50</Price>
+  </Book>
+  <Book Id="2">
+    <Title>Чистый код</Title>
+    <Author>Роберт Мартин</Author>
+    <Genre>IT</Genre>
+    <Year>2023</Year>
+    <Price>1200.00</Price>
+  </Book>
+  <Book Id="3">
+    <Title>Грокаем алгоритмы</Title>
+    <Author>Адитья Бхаргава</Author>
+    <Genre>IT</Genre>
+    <Year>2021</Year>
+    <Price>850.00</Price>
+  </Book>
+  <Book Id="4">
+    <Title>Дюна</Title>
+    <Author>Фрэнк Герберт</Author>
+    <Genre>Фантастика</Genre>
+    <Year>1965</Year>
+    <Price>600.00</Price>
+  </Book>
+  <Book Id="5">
+    <Title>Астрофизика с космической скоростью</Title>
+    <Author>Нил Деграсс Тайсон</Author>
+    <Genre>Наука</Genre>
+    <Year>2022</Year>
+    <Price>520.00</Price>
+  </Book>
+  <Book Id="6">
+    <Title>Совершенный код</Title>
+    <Author>Стив Макконнелл</Author>
+    <Genre>IT</Genre>
+    <Year>2024</Year>
+    <Price>1500</Price>
+  </Book>
+  <Book Id="7">
+    <Title>Совершенный код</Title>
+    <Author>Стив Макконнелл</Author>
+    <Genre>IT</Genre>
+    <Year>2024</Year>
+    <Price>1500</Price>
+  </Book>
+  <Book Id="8">
+    <Title>Совершенный код</Title>
+    <Author>Стив Макконнелл</Author>
+    <Genre>IT</Genre>
+    <Year>2024</Year>
+    <Price>1500</Price>
+  </Book>
+  <Book Id="9">
+    <Title>Совершенный код</Title>
+    <Author>Стив Макконнелл</Author>
+    <Genre>IT</Genre>
+    <Year>2024</Year>
+    <Price>1500</Price>
+  </Book>
+</Catalog>

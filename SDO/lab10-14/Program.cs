@@ -34,6 +34,12 @@ class Program
         Console.WriteLine("=== Дополнительное задание 3: Гибкий поисковый фильтр ===");
         Console.WriteLine(new string('=', 80));
         AdvancedTask3.Run();
+
+        Console.WriteLine();
+        Console.WriteLine(new string('=', 80));
+        Console.WriteLine("=== Дополнительное задание 5: LINQ to XML ===");
+        Console.WriteLine(new string('=', 80));
+        BookCatalog.Run();
     }
 
     static void RunLabTask()
