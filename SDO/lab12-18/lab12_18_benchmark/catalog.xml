@@ -1,0 +1,506 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Title>Каталог товаров</Title>
+  <Items>
+    <Item>
+      <Id>1</Id>
+      <Name>Товар 1</Name>
+      <Price>99.5</Price>
+    </Item>
+    <Item>
+      <Id>2</Id>
+      <Name>Товар 2</Name>
+      <Price>199</Price>
+    </Item>
+    <Item>
+      <Id>3</Id>
+      <Name>Товар 3</Name>
+      <Price>298.5</Price>
+    </Item>
+    <Item>
+      <Id>4</Id>
+      <Name>Товар 4</Name>
+      <Price>398</Price>
+    </Item>
+    <Item>
+      <Id>5</Id>
+      <Name>Товар 5</Name>
+      <Price>497.5</Price>
+    </Item>
+    <Item>
+      <Id>6</Id>
+      <Name>Товар 6</Name>
+      <Price>597</Price>
+    </Item>
+    <Item>
+      <Id>7</Id>
+      <Name>Товар 7</Name>
+      <Price>696.5</Price>
+    </Item>
+    <Item>
+      <Id>8</Id>
+      <Name>Товар 8</Name>
+      <Price>796</Price>
+    </Item>
+    <Item>
+      <Id>9</Id>
+      <Name>Товар 9</Name>
+      <Price>895.5</Price>
+    </Item>
+    <Item>
+      <Id>10</Id>
+      <Name>Товар 10</Name>
+      <Price>995</Price>
+    </Item>
+    <Item>
+      <Id>11</Id>
+      <Name>Товар 11</Name>
+      <Price>1094.5</Price>
+    </Item>
+    <Item>
+      <Id>12</Id>
+      <Name>Товар 12</Name>
+      <Price>1194</Price>
+    </Item>
+    <Item>
+      <Id>13</Id>
+      <Name>Товар 13</Name>
+      <Price>1293.5</Price>
+    </Item>
+    <Item>
+      <Id>14</Id>
+      <Name>Товар 14</Name>
+      <Price>1393</Price>
+    </Item>
+    <Item>
+      <Id>15</Id>
+      <Name>Товар 15</Name>
+      <Price>1492.5</Price>
+    </Item>
+    <Item>
+      <Id>16</Id>
+      <Name>Товар 16</Name>
+      <Price>1592</Price>
+    </Item>
+    <Item>
+      <Id>17</Id>
+      <Name>Товар 17</Name>
+      <Price>1691.5</Price>
+    </Item>
+    <Item>
+      <Id>18</Id>
+      <Name>Товар 18</Name>
+      <Price>1791</Price>
+    </Item>
+    <Item>
+      <Id>19</Id>
+      <Name>Товар 19</Name>
+      <Price>1890.5</Price>
+    </Item>
+    <Item>
+      <Id>20</Id>
+      <Name>Товар 20</Name>
+      <Price>1990</Price>
+    </Item>
+    <Item>
+      <Id>21</Id>
+      <Name>Товар 21</Name>
+      <Price>2089.5</Price>
+    </Item>
+    <Item>
+      <Id>22</Id>
+      <Name>Товар 22</Name>
+      <Price>2189</Price>
+    </Item>
+    <Item>
+      <Id>23</Id>
+      <Name>Товар 23</Name>
+      <Price>2288.5</Price>
+    </Item>
+    <Item>
+      <Id>24</Id>
+      <Name>Товар 24</Name>
+      <Price>2388</Price>
+    </Item>
+    <Item>
+      <Id>25</Id>
+      <Name>Товар 25</Name>
+      <Price>2487.5</Price>
+    </Item>
+    <Item>
+      <Id>26</Id>
+      <Name>Товар 26</Name>
+      <Price>2587</Price>
+    </Item>
+    <Item>
+      <Id>27</Id>
+      <Name>Товар 27</Name>
+      <Price>2686.5</Price>
+    </Item>
+    <Item>
+      <Id>28</Id>
+      <Name>Товар 28</Name>
+      <Price>2786</Price>
+    </Item>
+    <Item>
+      <Id>29</Id>
+      <Name>Товар 29</Name>
+      <Price>2885.5</Price>
+    </Item>
+    <Item>
+      <Id>30</Id>
+      <Name>Товар 30</Name>
+      <Price>2985</Price>
+    </Item>
+    <Item>
+      <Id>31</Id>
+      <Name>Товар 31</Name>
+      <Price>3084.5</Price>
+    </Item>
+    <Item>
+      <Id>32</Id>
+      <Name>Товар 32</Name>
+      <Price>3184</Price>
+    </Item>
+    <Item>
+      <Id>33</Id>
+      <Name>Товар 33</Name>
+      <Price>3283.5</Price>
+    </Item>
+    <Item>
+      <Id>34</Id>
+      <Name>Товар 34</Name>
+      <Price>3383</Price>
+    </Item>
+    <Item>
+      <Id>35</Id>
+      <Name>Товар 35</Name>
+      <Price>3482.5</Price>
+    </Item>
+    <Item>
+      <Id>36</Id>
+      <Name>Товар 36</Name>
+      <Price>3582</Price>
+    </Item>
+    <Item>
+      <Id>37</Id>
+      <Name>Товар 37</Name>
+      <Price>3681.5</Price>
+    </Item>
+    <Item>
+      <Id>38</Id>
+      <Name>Товар 38</Name>
+      <Price>3781</Price>
+    </Item>
+    <Item>
+      <Id>39</Id>
+      <Name>Товар 39</Name>
+      <Price>3880.5</Price>
+    </Item>
+    <Item>
+      <Id>40</Id>
+      <Name>Товар 40</Name>
+      <Price>3980</Price>
+    </Item>
+    <Item>
+      <Id>41</Id>
+      <Name>Товар 41</Name>
+      <Price>4079.5</Price>
+    </Item>
+    <Item>
+      <Id>42</Id>
+      <Name>Товар 42</Name>
+      <Price>4179</Price>
+    </Item>
+    <Item>
+      <Id>43</Id>
+      <Name>Товар 43</Name>
+      <Price>4278.5</Price>
+    </Item>
+    <Item>
+      <Id>44</Id>
+      <Name>Товар 44</Name>
+      <Price>4378</Price>
+    </Item>
+    <Item>
+      <Id>45</Id>
+      <Name>Товар 45</Name>
+      <Price>4477.5</Price>
+    </Item>
+    <Item>
+      <Id>46</Id>
+      <Name>Товар 46</Name>
+      <Price>4577</Price>
+    </Item>
+    <Item>
+      <Id>47</Id>
+      <Name>Товар 47</Name>
+      <Price>4676.5</Price>
+    </Item>
+    <Item>
+      <Id>48</Id>
+      <Name>Товар 48</Name>
+      <Price>4776</Price>
+    </Item>
+    <Item>
+      <Id>49</Id>
+      <Name>Товар 49</Name>
+      <Price>4875.5</Price>
+    </Item>
+    <Item>
+      <Id>50</Id>
+      <Name>Товар 50</Name>
+      <Price>4975</Price>
+    </Item>
+    <Item>
+      <Id>51</Id>
+      <Name>Товар 51</Name>
+      <Price>5074.5</Price>
+    </Item>
+    <Item>
+      <Id>52</Id>
+      <Name>Товар 52</Name>
+      <Price>5174</Price>
+    </Item>
+    <Item>
+      <Id>53</Id>
+      <Name>Товар 53</Name>
+      <Price>5273.5</Price>
+    </Item>
+    <Item>
+      <Id>54</Id>
+      <Name>Товар 54</Name>
+      <Price>5373</Price>
+    </Item>
+    <Item>
+      <Id>55</Id>
+      <Name>Товар 55</Name>
+      <Price>5472.5</Price>
+    </Item>
+    <Item>
+      <Id>56</Id>
+      <Name>Товар 56</Name>
+      <Price>5572</Price>
+    </Item>
+    <Item>
+      <Id>57</Id>
+      <Name>Товар 57</Name>
+      <Price>5671.5</Price>
+    </Item>
+    <Item>
+      <Id>58</Id>
+      <Name>Товар 58</Name>
+      <Price>5771</Price>
+    </Item>
+    <Item>
+      <Id>59</Id>
+      <Name>Товар 59</Name>
+      <Price>5870.5</Price>
+    </Item>
+    <Item>
+      <Id>60</Id>
+      <Name>Товар 60</Name>
+      <Price>5970</Price>
+    </Item>
+    <Item>
+      <Id>61</Id>
+      <Name>Товар 61</Name>
+      <Price>6069.5</Price>
+    </Item>
+    <Item>
+      <Id>62</Id>
+      <Name>Товар 62</Name>
+      <Price>6169</Price>
+    </Item>
+    <Item>
+      <Id>63</Id>
+      <Name>Товар 63</Name>
+      <Price>6268.5</Price>
+    </Item>
+    <Item>
+      <Id>64</Id>
+      <Name>Товар 64</Name>
+      <Price>6368</Price>
+    </Item>
+    <Item>
+      <Id>65</Id>
+      <Name>Товар 65</Name>
+      <Price>6467.5</Price>
+    </Item>
+    <Item>
+      <Id>66</Id>
+      <Name>Товар 66</Name>
+      <Price>6567</Price>
+    </Item>
+    <Item>
+      <Id>67</Id>
+      <Name>Товар 67</Name>
+      <Price>6666.5</Price>
+    </Item>
+    <Item>
+      <Id>68</Id>
+      <Name>Товар 68</Name>
+      <Price>6766</Price>
+    </Item>
+    <Item>
+      <Id>69</Id>
+      <Name>Товар 69</Name>
+      <Price>6865.5</Price>
+    </Item>
+    <Item>
+      <Id>70</Id>
+      <Name>Товар 70</Name>
+      <Price>6965</Price>
+    </Item>
+    <Item>
+      <Id>71</Id>
+      <Name>Товар 71</Name>
+      <Price>7064.5</Price>
+    </Item>
+    <Item>
+      <Id>72</Id>
+      <Name>Товар 72</Name>
+      <Price>7164</Price>
+    </Item>
+    <Item>
+      <Id>73</Id>
+      <Name>Товар 73</Name>
+      <Price>7263.5</Price>
+    </Item>
+    <Item>
+      <Id>74</Id>
+      <Name>Товар 74</Name>
+      <Price>7363</Price>
+    </Item>
+    <Item>
+      <Id>75</Id>
+      <Name>Товар 75</Name>
+      <Price>7462.5</Price>
+    </Item>
+    <Item>
+      <Id>76</Id>
+      <Name>Товар 76</Name>
+      <Price>7562</Price>
+    </Item>
+    <Item>
+      <Id>77</Id>
+      <Name>Товар 77</Name>
+      <Price>7661.5</Price>
+    </Item>
+    <Item>
+      <Id>78</Id>
+      <Name>Товар 78</Name>
+      <Price>7761</Price>
+    </Item>
+    <Item>
+      <Id>79</Id>
+      <Name>Товар 79</Name>
+      <Price>7860.5</Price>
+    </Item>
+    <Item>
+      <Id>80</Id>
+      <Name>Товар 80</Name>
+      <Price>7960</Price>
+    </Item>
+    <Item>
+      <Id>81</Id>
+      <Name>Товар 81</Name>
+      <Price>8059.5</Price>
+    </Item>
+    <Item>
+      <Id>82</Id>
+      <Name>Товар 82</Name>
+      <Price>8159</Price>
+    </Item>
+    <Item>
+      <Id>83</Id>
+      <Name>Товар 83</Name>
+      <Price>8258.5</Price>
+    </Item>
+    <Item>
+      <Id>84</Id>
+      <Name>Товар 84</Name>
+      <Price>8358</Price>
+    </Item>
+    <Item>
+      <Id>85</Id>
+      <Name>Товар 85</Name>
+      <Price>8457.5</Price>
+    </Item>
+    <Item>
+      <Id>86</Id>
+      <Name>Товар 86</Name>
+      <Price>8557</Price>
+    </Item>
+    <Item>
+      <Id>87</Id>
+      <Name>Товар 87</Name>
+      <Price>8656.5</Price>
+    </Item>
+    <Item>
+      <Id>88</Id>
+      <Name>Товар 88</Name>
+      <Price>8756</Price>
+    </Item>
+    <Item>
+      <Id>89</Id>
+      <Name>Товар 89</Name>
+      <Price>8855.5</Price>
+    </Item>
+    <Item>
+      <Id>90</Id>
+      <Name>Товар 90</Name>
+      <Price>8955</Price>
+    </Item>
+    <Item>
+      <Id>91</Id>
+      <Name>Товар 91</Name>
+      <Price>9054.5</Price>
+    </Item>
+    <Item>
+      <Id>92</Id>
+      <Name>Товар 92</Name>
+      <Price>9154</Price>
+    </Item>
+    <Item>
+      <Id>93</Id>
+      <Name>Товар 93</Name>
+      <Price>9253.5</Price>
+    </Item>
+    <Item>
+      <Id>94</Id>
+      <Name>Товар 94</Name>
+      <Price>9353</Price>
+    </Item>
+    <Item>
+      <Id>95</Id>
+      <Name>Товар 95</Name>
+      <Price>9452.5</Price>
+    </Item>
+    <Item>
+      <Id>96</Id>
+      <Name>Товар 96</Name>
+      <Price>9552</Price>
+    </Item>
+    <Item>
+      <Id>97</Id>
+      <Name>Товар 97</Name>
+      <Price>9651.5</Price>
+    </Item>
+    <Item>
+      <Id>98</Id>
+      <Name>Товар 98</Name>
+      <Price>9751</Price>
+    </Item>
+    <Item>
+      <Id>99</Id>
+      <Name>Товар 99</Name>
+      <Price>9850.5</Price>
+    </Item>
+    <Item>
+      <Id>100</Id>
+      <Name>Товар 100</Name>
+      <Price>9950</Price>
+    </Item>
+  </Items>
+</Catalog>

@@ -18,6 +18,9 @@ class Program
 
         Section("Дополнительное задание 3: обработка заказов");
         Dop3.Run();
+
+        Section("Дополнительное задание 4: телефонная книга");
+        Dop4.Run();
     }
 
     static void Section(string title)

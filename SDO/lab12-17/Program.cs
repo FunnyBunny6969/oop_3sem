@@ -19,6 +19,41 @@ class Program
 
         Section("Дополнительное задание 3: организация файлов");
         Dop3.Run();
+
+        // --- Тест Задачи 4 ---
+        Section("Дополнительное задание 4: разделение и объединение файлов");
+
+     
+        var splitter = new FileSplitterMerger();
+        string originalFile = @".\Test\bigfile.bin";
+        string partsFolder = @".\Test\Parts";
+        string mergedFile = @".\Test\restored_bigfile.bin";
+
+        // Создаст файл размером 22 МБ прямо перед запуском теста
+        splitter.CreateDummyFile(originalFile, 22 * 1024 * 1024); 
+   
+
+        // Разделяем на части по 5 МБ
+        splitter.SplitFile(originalFile, partsFolder, 5 * 1024 * 1024);
+        
+        // Объединяем обратно
+        splitter.MergeFiles(partsFolder, "bigfile.bin", mergedFile);
+
+        // Проверяем идентичность
+        bool isSame = splitter.AreFilesIdentical(originalFile, mergedFile);
+        Console.WriteLine($"Файлы идентичны: {isSame}");
+
+        // --- Тест Задачи 5 ---
+        Section("Дополнительное задание 5: поиск дубликатов файлов");
+        var duplicateFinder = new DuplicateFileFinder();
+
+        string wd = Path.Combine(@".\duplicates");
+        Directory.CreateDirectory(wd);
+        foreach (var _ in Enumerable.Range(0, 5))
+        {
+            using (File.Create(Path.Combine(wd, Path.GetRandomFileName()))) { } 
+        }
+        duplicateFinder.FindAndManageDuplicates(wd);   
     }
 
     static void Section(string title)
@@ -32,7 +67,7 @@ class Program
 
 public static class MainTask
 {
-    public static string WorkDirectory => Path.Combine(Path.GetTempPath(), "lab12_17_main");
+    public static string WorkDirectory => Path.Combine("./", "lab12_17_main");
 
     public static void Run()
     {

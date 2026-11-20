@@ -34,7 +34,7 @@ public static class Dop3
             catalog.Items.Add(new Item { Id = i, Name = $"Товар {i}", Price = i * 99.5 });
         }
 
-        string directory = Path.Combine(Path.GetTempPath(), "lab12_18_benchmark");
+        string directory = Path.Combine("./", "lab12_18_benchmark");
         Directory.CreateDirectory(directory);
 
         List<Result> results = new List<Result>();

@@ -65,7 +65,7 @@ public static class Dop1
 
     public static void Run()
     {
-        string directory = Path.Combine(Path.GetTempPath(), "lab12_18_universal");
+        string directory = Path.Combine("./", "lab12_18_universal");
         Directory.CreateDirectory(directory);
 
         Book book = new Book

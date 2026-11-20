@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.IO;
 using System.Text.Json;
 using System.Text.Json.Serialization;
+using System.Text.Encodings.Web;
+
 
 class Program
 {
@@ -20,6 +22,9 @@ class Program
 
         Section("Дополнительное задание 3: сравнение производительности");
         Dop3.Run();
+
+        Section("Дополнительное задание 4: выбор формата по размеру");
+        Dop4.Run();
     }
 
     static void Section(string title)
@@ -57,8 +62,12 @@ public static class MainTask
             new Student { Id = 3, Name = "Петр Сидоров", Group = "ПИ-102", Grades = new List<int> { 3, 4, 4 } }
         };
 
-        string path = Path.Combine(Path.GetTempPath(), "lab12_18_students.json");
-        JsonSerializerOptions options = new JsonSerializerOptions { WriteIndented = true };
+        string path = Path.Combine("./", "lab12_18_students.json");
+        JsonSerializerOptions options = new JsonSerializerOptions
+        {
+            WriteIndented = true,
+            Encoder = JavaScriptEncoder.UnsafeRelaxedJsonEscaping
+        };
 
         string json = JsonSerializer.Serialize(students, options);
         File.WriteAllText(path, json);

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Book xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Title>CLR via C#</Title>
+  <Author>Джеффри Рихтер</Author>
+  <Year>2012</Year>
+</Book>

@@ -80,7 +80,7 @@ public static class Dop2
 
     public static void Run()
     {
-        string directory = Path.Combine(Path.GetTempPath(), "lab12_18_converter");
+        string directory = Path.Combine("./", "lab12_18_converter");
         Directory.CreateDirectory(directory);
 
         Person person = new Person
